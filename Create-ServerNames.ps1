@@ -1,4 +1,32 @@
-﻿
+﻿<#
+
+.SYNOPSIS
+
+Generates random computer names based on the phonetic alpabet names.
+
+
+
+.DESCRIPTION
+
+Creates a specified number of random computer names based on the phonetic alphabet.
+
+.PARAMETER Count 
+
+The count parameter is mandatory and used to generate the specified number of of computer names.
+
+
+.EXAMPLE
+Create-ServerNames -count 3
+
+Generate three computer names.
+
+
+
+.NOTES
+
+Enjoy
+
+#>
 param(
 [Parameter(Position=0,Mandatory=$true)][int]$Count
 )
